@@ -1,0 +1,113 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Delphi To Hero'
+  ClientHeight = 494
+  ClientWidth = 794
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PanelContainer: TPanel
+    Left = 0
+    Top = 0
+    Width = 794
+    Height = 494
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 264
+    ExplicitTop = 216
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object PanelSideMenu: TPanel
+      Left = 0
+      Top = 0
+      Width = 97
+      Height = 494
+      Align = alLeft
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitTop = 96
+      ExplicitHeight = 398
+      object SpeedButton1: TSpeedButton
+        Left = 0
+        Top = 153
+        Width = 97
+        Height = 80
+        Align = alTop
+        Caption = 'USUARIOS'
+        Flat = True
+        OnClick = SpeedButton1Click
+        ExplicitTop = 73
+      end
+      object SpeedButton2: TSpeedButton
+        Left = 0
+        Top = 73
+        Width = 97
+        Height = 80
+        Align = alTop
+        Caption = 'PRINCIPAL'
+        Flat = True
+        OnClick = SpeedButton2Click
+        ExplicitTop = 81
+      end
+      object PanelLogo: TPanel
+        Left = 0
+        Top = 0
+        Width = 97
+        Height = 73
+        Align = alTop
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
+    end
+    object PanelFull: TPanel
+      Left = 97
+      Top = 0
+      Width = 697
+      Height = 494
+      Align = alClient
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 504
+      ExplicitTop = 248
+      ExplicitWidth = 185
+      ExplicitHeight = 41
+      object PanelHeader: TPanel
+        Left = 0
+        Top = 0
+        Width = 697
+        Height = 73
+        Align = alTop
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
+      object PanelContent: TPanel
+        Left = 0
+        Top = 73
+        Width = 697
+        Height = 421
+        Align = alClient
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 1
+        ExplicitLeft = 384
+        ExplicitTop = 336
+        ExplicitWidth = 185
+        ExplicitHeight = 41
+      end
+    end
+  end
+end

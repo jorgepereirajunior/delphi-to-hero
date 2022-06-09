@@ -1,0 +1,49 @@
+object PageUsuarios: TPageUsuarios
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'PageUsuarios'
+  ClientHeight = 469
+  ClientWidth = 664
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 664
+    Height = 469
+    Align = alClient
+    BevelOuter = bvNone
+    Padding.Top = 35
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = -51
+    ExplicitTop = -36
+    ExplicitWidth = 699
+    ExplicitHeight = 466
+    object Label1: TLabel
+      Left = 0
+      Top = 35
+      Width = 664
+      Height = 35
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'P'#225'gina Usu'#225'rios'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -29
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      ExplicitWidth = 203
+    end
+  end
+end
